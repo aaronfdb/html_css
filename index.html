@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <!-- Use HTML5 to Require a Field -->
+    <!-- Create a Set of Radio Buttons -->
     <h2>CatPhotoApp</h2>
     <main>
     <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -31,7 +31,18 @@
         <li>thunder</li>
         <li>other cats</li>
     </ol>
-    <form action="https://freecatphotoapp.com/submit-cat-photo"><input type="text" placeholder="cat photo URL" required><button type="submit">Submit</button></form>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+  
+        <label for="indoor">
+        <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+        </label>
+        <label for="outdoor">
+        <input id="outdoor" type="radio"
+        name="indoor-outdoor">Outdoor
+        </label>
+    </form>
     </main>
     <body>
         <!--[if lt IE 7]>

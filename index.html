@@ -12,14 +12,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <!-- Use CC Selectors to Style Elements -->
+    <!-- Use a CSS Class to Style an Element -->
     <style>
-        h2 {
-          color: blue;
+        .red-text {
+          color: red;
         }
-    </style>
-    <h2>CatPhotoApp</h2>
-    <main>
+      </style>
+      <h2 class="red-text">CatPhotoApp</h2>
+      <h2>CatPhotoApp</h2>
+      <main>
         <p>Click here to view more <a href="#">cat photos</a>.</p>
       
         <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
@@ -48,7 +49,7 @@
           <input type="text" placeholder="cat photo URL" required>
           <button type="submit">Submit</button>
         </form>
-    </main>
+      </main>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>

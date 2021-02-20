@@ -12,14 +12,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <!-- Inherit Styles from the Body Element -->
+    <!-- Prioritize One Style Over Another -->
     <style>
         body {
           background-color: black;
-          color: green;
           font-family: monospace;
+          color: green;
+        }
+        .pink-text {
+          color: pink;
         }
       </style>
-      
-      <h1>Hello World</h1>
+      <h1 class="pink-text">Hello World!</h1>
 </html>

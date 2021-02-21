@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <!-- Prioritize One Style Over Another -->
+    <!-- Override Styles in Subsequent CSS -->
     <style>
         body {
           background-color: black;
@@ -22,6 +22,9 @@
         .pink-text {
           color: pink;
         }
+        .blue-text {
+          color: blue;
+        }
       </style>
-      <h1 class="pink-text">Hello World!</h1>
+      <h1 class="pink-text blue-text">Hello World!</h1>
 </html>

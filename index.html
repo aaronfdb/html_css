@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <!-- Override Styles in Subsequent CSS -->
+    <!-- Override Class Declarations by Styling ID Attributes -->
     <style>
         body {
           background-color: black;
@@ -25,6 +25,9 @@
         .blue-text {
           color: blue;
         }
+        #orange-text {
+          color: orange;
+        }
       </style>
-      <h1 class="pink-text blue-text">Hello World!</h1>
+      <h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
 </html>

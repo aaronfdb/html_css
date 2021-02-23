@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <!-- Adjust the Size of a Header Versus a Paragraph Tag -->
+    <!-- Add a box-shadow to a Card-like Element -->
     <style>
         h4 {
           text-align: center;
@@ -27,6 +27,11 @@
           text-align: left;
           color: black;
         }
+        #thumbnail {
+          box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+      
+      
         .fullCard {
           width: 245px;
           border: 1px solid #ccc;
@@ -41,7 +46,7 @@
           margin-bottom: 30px;
         }
       </style>
-      <div class="fullCard">
+      <div class="fullCard" id="thumbnail">
         <div class="cardContent">
           <div class="cardText">
             <h4>Alphabet</h4>

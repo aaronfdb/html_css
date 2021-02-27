@@ -12,24 +12,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <!-- Use the CSS Transform scale Property to Scale an Element on Hover -->
+    <!-- Use the CSS Transform Property skewX to Skew an Element Along the X-Axis -->
     <style>
         div {
           width: 70%;
           height: 100px;
           margin:  50px auto;
-          background: linear-gradient(
-            53deg,
-            #ccfffc,
-            #ffcccf
-          );
         }
-        div:hover {
-          transform: scale(1.1);
+        #top {
+          background-color: red;
         }
-      
-      
+        #bottom {
+          background-color: blue;
+          transform: skewX(24deg);
+        }
       </style>
       
-      <div></div>
+      <div id="top"></div>
+      <div id="bottom"></div>
     </html>

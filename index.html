@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <!-- Create Flexible Layouts Using auto-fill -->
+    <!-- Create Flexible Layouts Using auto-fit -->
     <style>
         .item1{background:LightSkyBlue;}
         .item2{background:LightSalmon;}
@@ -26,11 +26,7 @@
           width: 100%;
           background: LightGray;
           display: grid;
-          /* Only change code below this line */
-      
           grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-      
-          /* Only change code above this line */
           grid-template-rows: 1fr 1fr 1fr;
           grid-gap: 10px;
         }
@@ -41,11 +37,16 @@
           width: 100%;
           background: Silver;
           display: grid;
-          grid-template-columns: repeat(3, minmax(60px, 1fr));
+          /* Only change code below this line */
+      
+          grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+      
+          /* Only change code above this line */
           grid-template-rows: 1fr 1fr 1fr;
           grid-gap: 10px;
         }
       </style>
+      
       <div class="container">
         <div class="item1">1</div>
         <div class="item2">2</div>

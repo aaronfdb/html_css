@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <!-- Align All Items Vertically using align-items -->
+    <!-- Divide the Grid Into an Area Template -->
     <style>
         .item1{background:LightSkyBlue;}
         .item2{background:LightSalmon;}
@@ -29,9 +29,11 @@
           grid-template-columns: 1fr 1fr 1fr;
           grid-template-rows: 1fr 1fr 1fr;
           grid-gap: 10px;
+          grid-template-areas:
           /* Only change code below this line */
-          align-items: end;
-          
+            "header header header"
+            ". content content"
+            "footer footer footer";
           /* Only change code above this line */
         }
       </style>
